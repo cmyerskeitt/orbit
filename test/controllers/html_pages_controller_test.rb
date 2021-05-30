@@ -4,7 +4,7 @@ class HtmlPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get html_pages_home_url
     assert_response :success
-    assert_select "title", "Home | Orbit Feedback Application"
+    assert_select "title", "Orbit Feedback Application"
   end
 
   test "should get help" do
